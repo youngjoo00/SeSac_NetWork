@@ -10,9 +10,14 @@
 		8E670C1B2B5667D2008DFB3E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E670C1A2B5667D2008DFB3E /* AppDelegate.swift */; };
 		8E670C1D2B5667D2008DFB3E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E670C1C2B5667D2008DFB3E /* SceneDelegate.swift */; };
 		8E670C1F2B5667D2008DFB3E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E670C1E2B5667D2008DFB3E /* ViewController.swift */; };
-		8E670C222B5667D2008DFB3E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8E670C202B5667D2008DFB3E /* Main.storyboard */; };
 		8E670C242B5667D4008DFB3E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8E670C232B5667D4008DFB3E /* Assets.xcassets */; };
 		8E670C272B5667D4008DFB3E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8E670C252B5667D4008DFB3E /* LaunchScreen.storyboard */; };
+		8E670C302B566903008DFB3E /* Lotto.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8E670C2F2B566903008DFB3E /* Lotto.storyboard */; };
+		8E670C322B566914008DFB3E /* LottoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E670C312B566914008DFB3E /* LottoViewController.swift */; };
+		8E670C342B566964008DFB3E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8E670C332B566964008DFB3E /* Main.storyboard */; };
+		8E670C372B566A66008DFB3E /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 8E670C362B566A66008DFB3E /* Alamofire */; };
+		8E670C392B566C4A008DFB3E /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E670C382B566C4A008DFB3E /* Model.swift */; };
+		8E670C3D2B566CA1008DFB3E /* LottoAPIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E670C3C2B566CA1008DFB3E /* LottoAPIManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,10 +25,14 @@
 		8E670C1A2B5667D2008DFB3E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8E670C1C2B5667D2008DFB3E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		8E670C1E2B5667D2008DFB3E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		8E670C212B5667D2008DFB3E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8E670C232B5667D4008DFB3E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8E670C262B5667D4008DFB3E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8E670C282B5667D4008DFB3E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8E670C2F2B566903008DFB3E /* Lotto.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Lotto.storyboard; sourceTree = "<group>"; };
+		8E670C312B566914008DFB3E /* LottoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LottoViewController.swift; sourceTree = "<group>"; };
+		8E670C332B566964008DFB3E /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		8E670C382B566C4A008DFB3E /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		8E670C3C2B566CA1008DFB3E /* LottoAPIManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LottoAPIManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +40,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8E670C372B566A66008DFB3E /* Alamofire in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -56,15 +66,27 @@
 		8E670C192B5667D2008DFB3E /* SeSac_Network */ = {
 			isa = PBXGroup;
 			children = (
+				8E670C2E2B5668B3008DFB3E /* Lotto */,
 				8E670C1A2B5667D2008DFB3E /* AppDelegate.swift */,
 				8E670C1C2B5667D2008DFB3E /* SceneDelegate.swift */,
 				8E670C1E2B5667D2008DFB3E /* ViewController.swift */,
-				8E670C202B5667D2008DFB3E /* Main.storyboard */,
-				8E670C232B5667D4008DFB3E /* Assets.xcassets */,
+				8E670C332B566964008DFB3E /* Main.storyboard */,
 				8E670C252B5667D4008DFB3E /* LaunchScreen.storyboard */,
+				8E670C232B5667D4008DFB3E /* Assets.xcassets */,
 				8E670C282B5667D4008DFB3E /* Info.plist */,
 			);
 			path = SeSac_Network;
+			sourceTree = "<group>";
+		};
+		8E670C2E2B5668B3008DFB3E /* Lotto */ = {
+			isa = PBXGroup;
+			children = (
+				8E670C2F2B566903008DFB3E /* Lotto.storyboard */,
+				8E670C312B566914008DFB3E /* LottoViewController.swift */,
+				8E670C382B566C4A008DFB3E /* Model.swift */,
+				8E670C3C2B566CA1008DFB3E /* LottoAPIManager.swift */,
+			);
+			path = Lotto;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,6 +105,9 @@
 			dependencies = (
 			);
 			name = SeSac_Network;
+			packageProductDependencies = (
+				8E670C362B566A66008DFB3E /* Alamofire */,
+			);
 			productName = SeSac_Network;
 			productReference = 8E670C172B5667D2008DFB3E /* SeSac_Network.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +136,9 @@
 				Base,
 			);
 			mainGroup = 8E670C0E2B5667D2008DFB3E;
+			packageReferences = (
+				8E670C352B566A66008DFB3E /* XCRemoteSwiftPackageReference "Alamofire" */,
+			);
 			productRefGroup = 8E670C182B5667D2008DFB3E /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -126,8 +154,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				8E670C272B5667D4008DFB3E /* LaunchScreen.storyboard in Resources */,
+				8E670C302B566903008DFB3E /* Lotto.storyboard in Resources */,
 				8E670C242B5667D4008DFB3E /* Assets.xcassets in Resources */,
-				8E670C222B5667D2008DFB3E /* Main.storyboard in Resources */,
+				8E670C342B566964008DFB3E /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,23 +167,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8E670C392B566C4A008DFB3E /* Model.swift in Sources */,
 				8E670C1F2B5667D2008DFB3E /* ViewController.swift in Sources */,
+				8E670C322B566914008DFB3E /* LottoViewController.swift in Sources */,
 				8E670C1B2B5667D2008DFB3E /* AppDelegate.swift in Sources */,
 				8E670C1D2B5667D2008DFB3E /* SceneDelegate.swift in Sources */,
+				8E670C3D2B566CA1008DFB3E /* LottoAPIManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		8E670C202B5667D2008DFB3E /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				8E670C212B5667D2008DFB3E /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		8E670C252B5667D4008DFB3E /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -371,6 +395,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		8E670C352B566A66008DFB3E /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.8.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		8E670C362B566A66008DFB3E /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 8E670C352B566A66008DFB3E /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 8E670C0F2B5667D2008DFB3E /* Project object */;
 }
