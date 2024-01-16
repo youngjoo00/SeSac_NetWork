@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8E24DBEA2B5686E800573E2D /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = 8E24DBE92B5686E800573E2D /* Kingfisher */; };
 		8E670C1B2B5667D2008DFB3E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E670C1A2B5667D2008DFB3E /* AppDelegate.swift */; };
 		8E670C1D2B5667D2008DFB3E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E670C1C2B5667D2008DFB3E /* SceneDelegate.swift */; };
 		8E670C1F2B5667D2008DFB3E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E670C1E2B5667D2008DFB3E /* ViewController.swift */; };
@@ -18,6 +19,8 @@
 		8E670C372B566A66008DFB3E /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 8E670C362B566A66008DFB3E /* Alamofire */; };
 		8E670C392B566C4A008DFB3E /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E670C382B566C4A008DFB3E /* Model.swift */; };
 		8E670C3D2B566CA1008DFB3E /* LottoAPIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E670C3C2B566CA1008DFB3E /* LottoAPIManager.swift */; };
+		8E670C402B567C05008DFB3E /* RecommendBeer.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8E670C3F2B567C05008DFB3E /* RecommendBeer.storyboard */; };
+		8E670C422B567C12008DFB3E /* RecommendBeerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E670C412B567C12008DFB3E /* RecommendBeerViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,6 +36,8 @@
 		8E670C332B566964008DFB3E /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		8E670C382B566C4A008DFB3E /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
 		8E670C3C2B566CA1008DFB3E /* LottoAPIManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LottoAPIManager.swift; sourceTree = "<group>"; };
+		8E670C3F2B567C05008DFB3E /* RecommendBeer.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = RecommendBeer.storyboard; sourceTree = "<group>"; };
+		8E670C412B567C12008DFB3E /* RecommendBeerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecommendBeerViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,6 +45,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8E24DBEA2B5686E800573E2D /* Kingfisher in Frameworks */,
 				8E670C372B566A66008DFB3E /* Alamofire in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -66,6 +72,7 @@
 		8E670C192B5667D2008DFB3E /* SeSac_Network */ = {
 			isa = PBXGroup;
 			children = (
+				8E670C3E2B567BD2008DFB3E /* RecommendBeer */,
 				8E670C2E2B5668B3008DFB3E /* Lotto */,
 				8E670C1A2B5667D2008DFB3E /* AppDelegate.swift */,
 				8E670C1C2B5667D2008DFB3E /* SceneDelegate.swift */,
@@ -89,6 +96,15 @@
 			path = Lotto;
 			sourceTree = "<group>";
 		};
+		8E670C3E2B567BD2008DFB3E /* RecommendBeer */ = {
+			isa = PBXGroup;
+			children = (
+				8E670C3F2B567C05008DFB3E /* RecommendBeer.storyboard */,
+				8E670C412B567C12008DFB3E /* RecommendBeerViewController.swift */,
+			);
+			path = RecommendBeer;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -107,6 +123,7 @@
 			name = SeSac_Network;
 			packageProductDependencies = (
 				8E670C362B566A66008DFB3E /* Alamofire */,
+				8E24DBE92B5686E800573E2D /* Kingfisher */,
 			);
 			productName = SeSac_Network;
 			productReference = 8E670C172B5667D2008DFB3E /* SeSac_Network.app */;
@@ -138,6 +155,7 @@
 			mainGroup = 8E670C0E2B5667D2008DFB3E;
 			packageReferences = (
 				8E670C352B566A66008DFB3E /* XCRemoteSwiftPackageReference "Alamofire" */,
+				8E24DBE82B5686E800573E2D /* XCRemoteSwiftPackageReference "Kingfisher" */,
 			);
 			productRefGroup = 8E670C182B5667D2008DFB3E /* Products */;
 			projectDirPath = "";
@@ -153,6 +171,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8E670C402B567C05008DFB3E /* RecommendBeer.storyboard in Resources */,
 				8E670C272B5667D4008DFB3E /* LaunchScreen.storyboard in Resources */,
 				8E670C302B566903008DFB3E /* Lotto.storyboard in Resources */,
 				8E670C242B5667D4008DFB3E /* Assets.xcassets in Resources */,
@@ -171,6 +190,7 @@
 				8E670C1F2B5667D2008DFB3E /* ViewController.swift in Sources */,
 				8E670C322B566914008DFB3E /* LottoViewController.swift in Sources */,
 				8E670C1B2B5667D2008DFB3E /* AppDelegate.swift in Sources */,
+				8E670C422B567C12008DFB3E /* RecommendBeerViewController.swift in Sources */,
 				8E670C1D2B5667D2008DFB3E /* SceneDelegate.swift in Sources */,
 				8E670C3D2B566CA1008DFB3E /* LottoAPIManager.swift in Sources */,
 			);
@@ -397,6 +417,14 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
+		8E24DBE82B5686E800573E2D /* XCRemoteSwiftPackageReference "Kingfisher" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/onevcat/Kingfisher.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 7.10.2;
+			};
+		};
 		8E670C352B566A66008DFB3E /* XCRemoteSwiftPackageReference "Alamofire" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/Alamofire/Alamofire.git";
@@ -408,6 +436,11 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
+		8E24DBE92B5686E800573E2D /* Kingfisher */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 8E24DBE82B5686E800573E2D /* XCRemoteSwiftPackageReference "Kingfisher" */;
+			productName = Kingfisher;
+		};
 		8E670C362B566A66008DFB3E /* Alamofire */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = 8E670C352B566A66008DFB3E /* XCRemoteSwiftPackageReference "Alamofire" */;
