@@ -9,12 +9,6 @@ import UIKit
 import Alamofire
 import Kingfisher
 
-struct Beer: Codable {
-    let name: String
-    let description: String
-    let image_url: String
-}
-
 class RecommendBeerViewController: UIViewController {
 
     @IBOutlet var titleLabel: UILabel!
@@ -23,7 +17,6 @@ class RecommendBeerViewController: UIViewController {
     @IBOutlet var descriptionLabel: UILabel!
     @IBOutlet var randomRecommendBtn: UIButton!
     
-    var list: Beer = Beer(name: "", description: "", image_url: "")
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -45,7 +38,6 @@ extension RecommendBeerViewController {
             switch response.result {
             case .success(let data):
                 print(data)
-                self.titleLabel.text = data[0].name
                 let url = URL(string: "\(data[0].image_url)")
                 self.imageView.kf.setImage(with: url)
                 self.nameLabel.text = data[0].name
@@ -57,7 +49,7 @@ extension RecommendBeerViewController {
     }
     
     func configureUI() {
-        titleLabel.text = ""
+        titleLabel.text = "오늘은 이 맥주를 추천합니다!"
         titleLabel.font = .boldSystemFont(ofSize: 20)
         titleLabel.textAlignment = .center
         
@@ -68,7 +60,7 @@ extension RecommendBeerViewController {
         imageView.contentMode = .scaleAspectFit
         
         descriptionLabel.text = ""
-        
+        descriptionLabel.numberOfLines = 0
         randomRecommendBtn.setTitle("맥주 랜덤 추천받기", for: .normal)
         randomRecommendBtn.setImage(UIImage(systemName: "dice.fill"), for: .normal)
 

@@ -8,22 +8,30 @@
 
 /* Begin PBXBuildFile section */
 		8E24DBEA2B5686E800573E2D /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = 8E24DBE92B5686E800573E2D /* Kingfisher */; };
+		8E24DBEC2B568A2400573E2D /* BeerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E24DBEB2B568A2400573E2D /* BeerViewController.swift */; };
+		8E24DBEF2B568AFD00573E2D /* BeerTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E24DBED2B568AFD00573E2D /* BeerTableViewCell.swift */; };
+		8E24DBF02B568AFD00573E2D /* BeerTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8E24DBEE2B568AFD00573E2D /* BeerTableViewCell.xib */; };
+		8E24DBF22B568DFA00573E2D /* BeerModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E24DBF12B568DFA00573E2D /* BeerModel.swift */; };
+		8E24DBF32B5690E100573E2D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8E670C252B5667D4008DFB3E /* LaunchScreen.storyboard */; };
+		8E24DBF42B5690F000573E2D /* Beer.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8E670C3F2B567C05008DFB3E /* Beer.storyboard */; };
+		8E24DBF52B5690FE00573E2D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8E670C332B566964008DFB3E /* Main.storyboard */; };
 		8E670C1B2B5667D2008DFB3E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E670C1A2B5667D2008DFB3E /* AppDelegate.swift */; };
 		8E670C1D2B5667D2008DFB3E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E670C1C2B5667D2008DFB3E /* SceneDelegate.swift */; };
 		8E670C1F2B5667D2008DFB3E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E670C1E2B5667D2008DFB3E /* ViewController.swift */; };
 		8E670C242B5667D4008DFB3E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8E670C232B5667D4008DFB3E /* Assets.xcassets */; };
-		8E670C272B5667D4008DFB3E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8E670C252B5667D4008DFB3E /* LaunchScreen.storyboard */; };
 		8E670C302B566903008DFB3E /* Lotto.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8E670C2F2B566903008DFB3E /* Lotto.storyboard */; };
 		8E670C322B566914008DFB3E /* LottoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E670C312B566914008DFB3E /* LottoViewController.swift */; };
-		8E670C342B566964008DFB3E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8E670C332B566964008DFB3E /* Main.storyboard */; };
 		8E670C372B566A66008DFB3E /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 8E670C362B566A66008DFB3E /* Alamofire */; };
-		8E670C392B566C4A008DFB3E /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E670C382B566C4A008DFB3E /* Model.swift */; };
+		8E670C392B566C4A008DFB3E /* LottoModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E670C382B566C4A008DFB3E /* LottoModel.swift */; };
 		8E670C3D2B566CA1008DFB3E /* LottoAPIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E670C3C2B566CA1008DFB3E /* LottoAPIManager.swift */; };
-		8E670C402B567C05008DFB3E /* RecommendBeer.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8E670C3F2B567C05008DFB3E /* RecommendBeer.storyboard */; };
 		8E670C422B567C12008DFB3E /* RecommendBeerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E670C412B567C12008DFB3E /* RecommendBeerViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8E24DBEB2B568A2400573E2D /* BeerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeerViewController.swift; sourceTree = "<group>"; };
+		8E24DBED2B568AFD00573E2D /* BeerTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeerTableViewCell.swift; sourceTree = "<group>"; };
+		8E24DBEE2B568AFD00573E2D /* BeerTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BeerTableViewCell.xib; sourceTree = "<group>"; };
+		8E24DBF12B568DFA00573E2D /* BeerModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeerModel.swift; sourceTree = "<group>"; };
 		8E670C172B5667D2008DFB3E /* SeSac_Network.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SeSac_Network.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8E670C1A2B5667D2008DFB3E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8E670C1C2B5667D2008DFB3E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -34,9 +42,9 @@
 		8E670C2F2B566903008DFB3E /* Lotto.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Lotto.storyboard; sourceTree = "<group>"; };
 		8E670C312B566914008DFB3E /* LottoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LottoViewController.swift; sourceTree = "<group>"; };
 		8E670C332B566964008DFB3E /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
-		8E670C382B566C4A008DFB3E /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		8E670C382B566C4A008DFB3E /* LottoModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LottoModel.swift; sourceTree = "<group>"; };
 		8E670C3C2B566CA1008DFB3E /* LottoAPIManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LottoAPIManager.swift; sourceTree = "<group>"; };
-		8E670C3F2B567C05008DFB3E /* RecommendBeer.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = RecommendBeer.storyboard; sourceTree = "<group>"; };
+		8E670C3F2B567C05008DFB3E /* Beer.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Beer.storyboard; sourceTree = "<group>"; };
 		8E670C412B567C12008DFB3E /* RecommendBeerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecommendBeerViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -72,7 +80,7 @@
 		8E670C192B5667D2008DFB3E /* SeSac_Network */ = {
 			isa = PBXGroup;
 			children = (
-				8E670C3E2B567BD2008DFB3E /* RecommendBeer */,
+				8E670C3E2B567BD2008DFB3E /* Beer */,
 				8E670C2E2B5668B3008DFB3E /* Lotto */,
 				8E670C1A2B5667D2008DFB3E /* AppDelegate.swift */,
 				8E670C1C2B5667D2008DFB3E /* SceneDelegate.swift */,
@@ -90,19 +98,23 @@
 			children = (
 				8E670C2F2B566903008DFB3E /* Lotto.storyboard */,
 				8E670C312B566914008DFB3E /* LottoViewController.swift */,
-				8E670C382B566C4A008DFB3E /* Model.swift */,
+				8E670C382B566C4A008DFB3E /* LottoModel.swift */,
 				8E670C3C2B566CA1008DFB3E /* LottoAPIManager.swift */,
 			);
 			path = Lotto;
 			sourceTree = "<group>";
 		};
-		8E670C3E2B567BD2008DFB3E /* RecommendBeer */ = {
+		8E670C3E2B567BD2008DFB3E /* Beer */ = {
 			isa = PBXGroup;
 			children = (
-				8E670C3F2B567C05008DFB3E /* RecommendBeer.storyboard */,
+				8E670C3F2B567C05008DFB3E /* Beer.storyboard */,
 				8E670C412B567C12008DFB3E /* RecommendBeerViewController.swift */,
+				8E24DBEB2B568A2400573E2D /* BeerViewController.swift */,
+				8E24DBED2B568AFD00573E2D /* BeerTableViewCell.swift */,
+				8E24DBEE2B568AFD00573E2D /* BeerTableViewCell.xib */,
+				8E24DBF12B568DFA00573E2D /* BeerModel.swift */,
 			);
-			path = RecommendBeer;
+			path = Beer;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -171,11 +183,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8E670C402B567C05008DFB3E /* RecommendBeer.storyboard in Resources */,
-				8E670C272B5667D4008DFB3E /* LaunchScreen.storyboard in Resources */,
+				8E24DBF52B5690FE00573E2D /* Main.storyboard in Resources */,
+				8E24DBF42B5690F000573E2D /* Beer.storyboard in Resources */,
+				8E24DBF32B5690E100573E2D /* LaunchScreen.storyboard in Resources */,
 				8E670C302B566903008DFB3E /* Lotto.storyboard in Resources */,
+				8E24DBF02B568AFD00573E2D /* BeerTableViewCell.xib in Resources */,
 				8E670C242B5667D4008DFB3E /* Assets.xcassets in Resources */,
-				8E670C342B566964008DFB3E /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -186,7 +199,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8E670C392B566C4A008DFB3E /* Model.swift in Sources */,
+				8E24DBEC2B568A2400573E2D /* BeerViewController.swift in Sources */,
+				8E24DBEF2B568AFD00573E2D /* BeerTableViewCell.swift in Sources */,
+				8E670C392B566C4A008DFB3E /* LottoModel.swift in Sources */,
+				8E24DBF22B568DFA00573E2D /* BeerModel.swift in Sources */,
 				8E670C1F2B5667D2008DFB3E /* ViewController.swift in Sources */,
 				8E670C322B566914008DFB3E /* LottoViewController.swift in Sources */,
 				8E670C1B2B5667D2008DFB3E /* AppDelegate.swift in Sources */,
