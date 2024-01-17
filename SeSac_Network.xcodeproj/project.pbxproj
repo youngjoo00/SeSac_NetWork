@@ -25,6 +25,20 @@
 		8E670C392B566C4A008DFB3E /* LottoModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E670C382B566C4A008DFB3E /* LottoModel.swift */; };
 		8E670C3D2B566CA1008DFB3E /* LottoAPIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E670C3C2B566CA1008DFB3E /* LottoAPIManager.swift */; };
 		8E670C422B567C12008DFB3E /* RecommendBeerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E670C412B567C12008DFB3E /* RecommendBeerViewController.swift */; };
+		8E9B84D72B57ED5800BDC617 /* APIKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E9B84D62B57ED5800BDC617 /* APIKey.swift */; };
+		8E9B84DA2B57EDBE00BDC617 /* Translation.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8E9B84D92B57EDBE00BDC617 /* Translation.storyboard */; };
+		8E9B84DE2B57F12B00BDC617 /* TranslationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E9B84DD2B57F12B00BDC617 /* TranslationViewController.swift */; };
+		8E9B84E02B57F8EE00BDC617 /* LanguageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E9B84DF2B57F8EE00BDC617 /* LanguageViewController.swift */; };
+		8E9B84E32B57F96700BDC617 /* LanguageTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E9B84E12B57F96700BDC617 /* LanguageTableViewCell.swift */; };
+		8E9B84E42B57F96700BDC617 /* LanguageTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8E9B84E22B57F96700BDC617 /* LanguageTableViewCell.xib */; };
+		8E9B84E82B57FBA700BDC617 /* TranslationModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E9B84E72B57FBA700BDC617 /* TranslationModel.swift */; };
+		8E9B84EA2B57FCC700BDC617 /* Protocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E9B84E92B57FCC700BDC617 /* Protocol.swift */; };
+		8E9B84EC2B57FD9000BDC617 /* TranslationEnum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E9B84EB2B57FD9000BDC617 /* TranslationEnum.swift */; };
+		8E9B84EF2B580DBA00BDC617 /* Book.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8E9B84EE2B580DBA00BDC617 /* Book.storyboard */; };
+		8E9B84F12B580DC600BDC617 /* BookViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E9B84F02B580DC600BDC617 /* BookViewController.swift */; };
+		8E9B84F32B580E7E00BDC617 /* BookModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E9B84F22B580E7E00BDC617 /* BookModel.swift */; };
+		8E9B84F62B58100F00BDC617 /* BookCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E9B84F42B58100F00BDC617 /* BookCollectionViewCell.swift */; };
+		8E9B84F72B58100F00BDC617 /* BookCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8E9B84F52B58100F00BDC617 /* BookCollectionViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -46,6 +60,20 @@
 		8E670C3C2B566CA1008DFB3E /* LottoAPIManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LottoAPIManager.swift; sourceTree = "<group>"; };
 		8E670C3F2B567C05008DFB3E /* Beer.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Beer.storyboard; sourceTree = "<group>"; };
 		8E670C412B567C12008DFB3E /* RecommendBeerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecommendBeerViewController.swift; sourceTree = "<group>"; };
+		8E9B84D62B57ED5800BDC617 /* APIKey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIKey.swift; sourceTree = "<group>"; };
+		8E9B84D92B57EDBE00BDC617 /* Translation.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Translation.storyboard; sourceTree = "<group>"; };
+		8E9B84DD2B57F12B00BDC617 /* TranslationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TranslationViewController.swift; sourceTree = "<group>"; };
+		8E9B84DF2B57F8EE00BDC617 /* LanguageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LanguageViewController.swift; sourceTree = "<group>"; };
+		8E9B84E12B57F96700BDC617 /* LanguageTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LanguageTableViewCell.swift; sourceTree = "<group>"; };
+		8E9B84E22B57F96700BDC617 /* LanguageTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LanguageTableViewCell.xib; sourceTree = "<group>"; };
+		8E9B84E72B57FBA700BDC617 /* TranslationModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TranslationModel.swift; sourceTree = "<group>"; };
+		8E9B84E92B57FCC700BDC617 /* Protocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Protocol.swift; sourceTree = "<group>"; };
+		8E9B84EB2B57FD9000BDC617 /* TranslationEnum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TranslationEnum.swift; sourceTree = "<group>"; };
+		8E9B84EE2B580DBA00BDC617 /* Book.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Book.storyboard; sourceTree = "<group>"; };
+		8E9B84F02B580DC600BDC617 /* BookViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookViewController.swift; sourceTree = "<group>"; };
+		8E9B84F22B580E7E00BDC617 /* BookModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookModel.swift; sourceTree = "<group>"; };
+		8E9B84F42B58100F00BDC617 /* BookCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookCollectionViewCell.swift; sourceTree = "<group>"; };
+		8E9B84F52B58100F00BDC617 /* BookCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BookCollectionViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +108,8 @@
 		8E670C192B5667D2008DFB3E /* SeSac_Network */ = {
 			isa = PBXGroup;
 			children = (
+				8E9B84ED2B580DAB00BDC617 /* Book */,
+				8E9B84D82B57ED9500BDC617 /* Translation */,
 				8E670C3E2B567BD2008DFB3E /* Beer */,
 				8E670C2E2B5668B3008DFB3E /* Lotto */,
 				8E670C1A2B5667D2008DFB3E /* AppDelegate.swift */,
@@ -89,6 +119,8 @@
 				8E670C252B5667D4008DFB3E /* LaunchScreen.storyboard */,
 				8E670C232B5667D4008DFB3E /* Assets.xcassets */,
 				8E670C282B5667D4008DFB3E /* Info.plist */,
+				8E9B84D62B57ED5800BDC617 /* APIKey.swift */,
+				8E9B84E92B57FCC700BDC617 /* Protocol.swift */,
 			);
 			path = SeSac_Network;
 			sourceTree = "<group>";
@@ -115,6 +147,32 @@
 				8E24DBF12B568DFA00573E2D /* BeerModel.swift */,
 			);
 			path = Beer;
+			sourceTree = "<group>";
+		};
+		8E9B84D82B57ED9500BDC617 /* Translation */ = {
+			isa = PBXGroup;
+			children = (
+				8E9B84D92B57EDBE00BDC617 /* Translation.storyboard */,
+				8E9B84DD2B57F12B00BDC617 /* TranslationViewController.swift */,
+				8E9B84DF2B57F8EE00BDC617 /* LanguageViewController.swift */,
+				8E9B84E12B57F96700BDC617 /* LanguageTableViewCell.swift */,
+				8E9B84E22B57F96700BDC617 /* LanguageTableViewCell.xib */,
+				8E9B84E72B57FBA700BDC617 /* TranslationModel.swift */,
+				8E9B84EB2B57FD9000BDC617 /* TranslationEnum.swift */,
+			);
+			path = Translation;
+			sourceTree = "<group>";
+		};
+		8E9B84ED2B580DAB00BDC617 /* Book */ = {
+			isa = PBXGroup;
+			children = (
+				8E9B84EE2B580DBA00BDC617 /* Book.storyboard */,
+				8E9B84F02B580DC600BDC617 /* BookViewController.swift */,
+				8E9B84F22B580E7E00BDC617 /* BookModel.swift */,
+				8E9B84F42B58100F00BDC617 /* BookCollectionViewCell.swift */,
+				8E9B84F52B58100F00BDC617 /* BookCollectionViewCell.xib */,
+			);
+			path = Book;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -184,11 +242,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				8E24DBF52B5690FE00573E2D /* Main.storyboard in Resources */,
+				8E9B84E42B57F96700BDC617 /* LanguageTableViewCell.xib in Resources */,
 				8E24DBF42B5690F000573E2D /* Beer.storyboard in Resources */,
 				8E24DBF32B5690E100573E2D /* LaunchScreen.storyboard in Resources */,
+				8E9B84EF2B580DBA00BDC617 /* Book.storyboard in Resources */,
+				8E9B84DA2B57EDBE00BDC617 /* Translation.storyboard in Resources */,
 				8E670C302B566903008DFB3E /* Lotto.storyboard in Resources */,
 				8E24DBF02B568AFD00573E2D /* BeerTableViewCell.xib in Resources */,
 				8E670C242B5667D4008DFB3E /* Assets.xcassets in Resources */,
+				8E9B84F72B58100F00BDC617 /* BookCollectionViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -201,14 +263,24 @@
 			files = (
 				8E24DBEC2B568A2400573E2D /* BeerViewController.swift in Sources */,
 				8E24DBEF2B568AFD00573E2D /* BeerTableViewCell.swift in Sources */,
+				8E9B84E82B57FBA700BDC617 /* TranslationModel.swift in Sources */,
 				8E670C392B566C4A008DFB3E /* LottoModel.swift in Sources */,
+				8E9B84F32B580E7E00BDC617 /* BookModel.swift in Sources */,
 				8E24DBF22B568DFA00573E2D /* BeerModel.swift in Sources */,
 				8E670C1F2B5667D2008DFB3E /* ViewController.swift in Sources */,
 				8E670C322B566914008DFB3E /* LottoViewController.swift in Sources */,
+				8E9B84EC2B57FD9000BDC617 /* TranslationEnum.swift in Sources */,
+				8E9B84D72B57ED5800BDC617 /* APIKey.swift in Sources */,
 				8E670C1B2B5667D2008DFB3E /* AppDelegate.swift in Sources */,
+				8E9B84DE2B57F12B00BDC617 /* TranslationViewController.swift in Sources */,
 				8E670C422B567C12008DFB3E /* RecommendBeerViewController.swift in Sources */,
+				8E9B84F62B58100F00BDC617 /* BookCollectionViewCell.swift in Sources */,
+				8E9B84EA2B57FCC700BDC617 /* Protocol.swift in Sources */,
+				8E9B84E02B57F8EE00BDC617 /* LanguageViewController.swift in Sources */,
 				8E670C1D2B5667D2008DFB3E /* SceneDelegate.swift in Sources */,
+				8E9B84F12B580DC600BDC617 /* BookViewController.swift in Sources */,
 				8E670C3D2B566CA1008DFB3E /* LottoAPIManager.swift in Sources */,
+				8E9B84E32B57F96700BDC617 /* LanguageTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
